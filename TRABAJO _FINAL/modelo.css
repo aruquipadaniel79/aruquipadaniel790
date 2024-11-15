@@ -1,0 +1,81 @@
+h2 {
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    font-size: 90px;
+    color: rgb(28, 131, 33);
+}
+
+.section-block {
+    background-color: rgba(50, 45, 45, 0.41);
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.car-item {
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 25px;
+}
+
+.car-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+
+.cabecera {
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgba(25, 184, 17, 0.713);
+    padding: 30px;
+    font-size: 25px;
+}
+
+.cabecera a {
+
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.cabecera a:hover {
+    background-color: rgb(229, 198, 221);
+    border-radius: 15px;
+   
+    
+}
+
+.main-content {
+    padding: 20px;
+    background-color: lightgray;
+  
+}
+.video-container {
+    margin-top: 20px;
+    display: inline-block;
+    border-radius: 8px;
+    padding: 10px;
+    height: 100%;
+    width: 100%;
+   
+}
+
+/* Estilo del video */
+.video-player {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    
+}
